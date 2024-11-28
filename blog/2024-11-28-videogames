@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Games</title>
+    <link rel="stylesheet" href="../css/simple.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="index.html" aria-current="true">Blog</a>
+        </nav>
+
+        <h1>Video Games</h1>
+    </header>
+    <main>
+    
+        <p>  
+            Video games, <strong>You know them</strong> and <em>I</em> love them! Here's what people are saying about video games.
+        </p>
+
+        <blockquote>
+            "Boy <strong>video games</strong> amirite?"<br>
+            <cite>&mdash; People</cite>
+        </blockquote>
+
+        <a href="index.html" class="button">&larr; Back to the blog</a>
+    </main>
+    <footer>
+        <p>Made by me, Adrian Sandoval. Grade 5.</p>
+    </footer>
+</body>
+</html>
