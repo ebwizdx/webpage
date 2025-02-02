@@ -97,6 +97,14 @@ a{
 .group3 > div {
     flex: 1;
 }
+@media only screen and (max-width: 768px){
+    .profile{
+        margin-bottom: 0;
+    }
+    .group3{
+    flex-direction: column;
+    }
+}
 
 /* profile */
 .profile_container{
