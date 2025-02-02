@@ -83,7 +83,7 @@ body > * {
 body > header {
   background-color: var(--accent-bg);
   border-bottom: 1px solid var(--border);
-  text-align: center;
+  text-align: left;
   padding: 0 0.5rem 2rem 0.5rem;
   grid-column: 1 / -1;
 }
