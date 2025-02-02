@@ -17,6 +17,7 @@ body {
     background-color: black;
     color: white;
 }
+
 /* common styles */
 img{
     width: 80%;
@@ -25,6 +26,12 @@ img{
 a{
     text-decoration: none;
     color: white;
+}
+.description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
 }
 
 /*layouts*/
@@ -68,7 +75,7 @@ a{
     margin-bottom: -0.8rem;
 }
 
-.profile_name_firstName{
+.profile_name_lastName{
     color: var(--primary-color);
     font-weight: 700;
     font-size: clamp(2.5rem, 15vw, 7rem);
@@ -79,4 +86,18 @@ a{
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
+}
+.download_button{
+    display: block;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.download_button:hover{
+    color: var(--primary-color);
+}
+@media only screen and (max-width: 768px){
+    .profile_container {
+        flex-direction: column;
+    }
 }
