@@ -63,7 +63,27 @@ a{
     grid-column: 1 / -1;
     margin-bottom: 2rem;
 }
-
+.group_1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.item_preTitle{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    font-weight: 300;
+}
+.item_title{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem 0;
+}
+.item_subtitle{
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: 400;
+}
 /* profile */
 .profile_container{
     display: flex;
@@ -113,4 +133,18 @@ a{
     margin-top: 1rem;
     margin-left: 2rem;
     line-height: 2;
+}
+/* ref */
+
+.ref_item{
+    margin-top: 2rem;
+}
+.ref_name{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* edu */
+.edu_item{
+    margin-top: 2rem;
 }
