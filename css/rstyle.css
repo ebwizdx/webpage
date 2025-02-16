@@ -135,6 +135,12 @@ a{
     font-weight: 400;
     text-transform: uppercase;
 }
+.standard_link{
+    text-decoration: underline;
+}
+.standard_link:hover{
+    color:var(--primary-color);
+}
 .download_button{
     display: block;
     text-decoration: underline;
