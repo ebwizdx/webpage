@@ -6,15 +6,15 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #ff7613;
-    --text-color: #727171;
+    --primary-color: #a9b5df;
+    --text-color: #ffffff;
 }
 html {
     font-size: 10px;
 }
 body {
     font-family: Inter, sans-serif;
-    background-color: antiquewhite;
+    background-color: #fff2f2;
     color: white;
 }
 
@@ -63,7 +63,7 @@ a{
     margin: 0 auto;
     display: grid;
     padding: 5rem;
-    background-color: #070707;
+    background-color: #2d336b;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
